@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+ <LinearLayout
+     android:background="@color/teal_200"
+        android:translationY="660dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dan"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="单词"
+            android:textSize="20sp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            />
+
+        <Button
+            android:id="@+id/ciku"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="单词库"
+            android:textSize="20sp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+
+            />
+
+        <Button
+            android:id="@+id/xinwen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="新闻"
+            android:textSize="20sp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+
+            />
+        <Button
+            android:id="@+id/cha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="查询"
+            android:textSize="20sp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:translationY="-45dp"
+        android:id="@+id/fl1"
+        android:layout_width="match_parent"
+        android:layout_height="635dp"
+        android:background="@color/qianhong"
+        />
+
+</LinearLayout>
